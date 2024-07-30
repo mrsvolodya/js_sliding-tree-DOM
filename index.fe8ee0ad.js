@@ -1,0 +1,2 @@
+Array.from(document.querySelectorAll("li")).forEach(function(e){if(null!==e.querySelector("ul")){var t=document.createElement("span"),n=document.createTextNode(e.firstChild.textContent);t.appendChild(n),e.firstChild.textContent="",e.insertAdjacentElement("afterbegin",t)}}),document.querySelector(".tree").addEventListener("click",function(e){var t=e.target.parentElement.querySelector("ul");"none"===window.getComputedStyle(t).getPropertyValue("display")?t.style.cssText="display: block":t.style.cssText="display: none"});
+//# sourceMappingURL=index.fe8ee0ad.js.map
